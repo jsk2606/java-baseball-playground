@@ -32,7 +32,7 @@ public class StringTest {
     }
 
     @Test
-    @DisplayName("index out of Exception 을 기대")
+    @DisplayName("index out of Exception Test")
     void thirdRequirement(){
         String actual = "(1,2)";
         assertThatThrownBy(() -> actual.charAt(9))
