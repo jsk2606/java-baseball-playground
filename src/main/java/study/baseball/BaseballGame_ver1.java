@@ -1,4 +1,4 @@
-package study;
+package study.baseball;
 
 import java.util.HashSet;
 import java.util.Random;

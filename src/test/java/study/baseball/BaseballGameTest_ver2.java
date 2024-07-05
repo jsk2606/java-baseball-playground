@@ -1,11 +1,12 @@
-package study;
+package study.baseball;
 
+import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
-import study.domain_ver2.Ball;
-import study.domain_ver2.BallStatus;
-import study.domain_ver2.Computer;
-import study.domain_ver2.Player;
+import study.baseball.domain_ver2.Ball;
+import study.baseball.domain_ver2.BallStatus;
+import study.baseball.domain_ver2.Computer;
+import study.baseball.domain_ver2.Player;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -65,7 +66,7 @@ public class BaseballGameTest_ver2 {
     @Test
     @DisplayName("1-9 확인")
     void isANumberFrom1To9(){
-        assertThat(BaseballValidation_ver2.isNumberFrom1To9(1)).isTrue();
+        Assertions.assertThat(BaseballValidation_ver2.isNumberFrom1To9(1)).isTrue();
         assertThat(BaseballValidation_ver2.isNumberFrom1To9(9)).isTrue();
         assertThat(BaseballValidation_ver2.isNumberFrom1To9(0)).isFalse();
         assertThat(BaseballValidation_ver2.isNumberFrom1To9(10)).isFalse();

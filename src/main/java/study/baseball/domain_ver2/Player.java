@@ -1,4 +1,4 @@
-package study.domain_ver2;
+package study.baseball.domain_ver2;
 
 import java.util.HashMap;
 import java.util.Map;

@@ -1,4 +1,4 @@
-package study;
+package study.baseball;
 
 import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;

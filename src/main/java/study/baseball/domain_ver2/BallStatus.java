@@ -1,4 +1,4 @@
-package study.domain_ver2;
+package study.baseball.domain_ver2;
 
 public enum BallStatus {
     STRIKE("스트라이크"),
