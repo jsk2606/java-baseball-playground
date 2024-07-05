@@ -5,7 +5,7 @@ import java.util.Random;
 import java.util.Scanner;
 import java.util.Set;
 
-public class BaseballGame {
+public class BaseballGame_ver1 {
 
     final String BATTER = getBatter();
 
@@ -13,7 +13,7 @@ public class BaseballGame {
         final String RE_TRY = "1";
         final String END_GAME = "2";
 
-        BaseballGame game = new BaseballGame();
+        BaseballGame_ver1 game = new BaseballGame_ver1();
         game.throwBall();
 
         System.out.println("3개의 숫자를 모두 맞히셨습니다! 게임 종료");
@@ -21,7 +21,7 @@ public class BaseballGame {
         Scanner scanner = new Scanner(System.in);
         String input = scanner.nextLine().trim();
         if(RE_TRY.equals(input)){
-            game = new BaseballGame();
+            game = new BaseballGame_ver1();
             game.throwBall();
         }
         if(END_GAME.equals(input)){
